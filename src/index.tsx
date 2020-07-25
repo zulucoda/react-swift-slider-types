@@ -1,19 +1,19 @@
 import React from 'react';
 import {arrayOf, exact, string, number, bool} from 'prop-types';
 
-type SliderList = {
+export type SliderItem = {
     id: string;
     src: string;
 };
 
-type SliderProps = {
-    data: SliderList[];
-    height: number;
-    interval: number;
-    activeDotColor: string;
-    dotColor: string;
-    showDots: boolean;
-    enableNextAndPrev: boolean;
+export type SliderProps = {
+    data: SliderItem[];
+    height?: number;
+    interval?: number;
+    activeDotColor?: string;
+    dotColor?: string;
+    showDots?: boolean;
+    enableNextAndPrev?: boolean;
 };
 
 export const Slider = (sliderProps: SliderProps) => {
