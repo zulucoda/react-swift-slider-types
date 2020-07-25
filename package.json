@@ -1,0 +1,28 @@
+{
+  "name": "react-swift-slider-types",
+  "version": "1.0.0",
+  "description": "This is the react-swift-slider types declaration generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Muzikayise Flynn Buthelezi (zuluCoda)",
+  "contributors": [
+    {
+      "name": "Muzikayise Flynn Buthelezi (zuluCoda)",
+      "email": "muzi@mfbproject.co.za",
+      "url": "https://mfbproject.co.za"
+    }
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^3.9.7"
+  }
+}
